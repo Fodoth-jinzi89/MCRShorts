@@ -20,7 +20,7 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-build/
+.mcreator
 *.ipr
 run/
 *.iws
