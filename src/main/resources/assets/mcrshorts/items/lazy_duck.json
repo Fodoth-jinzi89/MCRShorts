@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "mcrshorts:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "mcrshorts:lazy_duck/time"
+            },
+            "value": 20
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcrshorts:item/lazy_duck_0"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mcrshorts:item/lazy_duck"
+    }
+  }
+}

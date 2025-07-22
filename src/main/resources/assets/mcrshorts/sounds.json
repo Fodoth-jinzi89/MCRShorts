@@ -1,0 +1,11 @@
+{
+  "player.mcrshorts.lazy_duck": {
+    "subtitle": "subtitles.player.mcrshorts.lazy_duck",
+    "sounds": [
+      {
+        "name": "mcrshorts:lazy_duck",
+        "stream": false
+      }
+    ]
+  }
+}

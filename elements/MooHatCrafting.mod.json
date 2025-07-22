@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Items.LEATHER_HELMET"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.SMOOTH_BASALT"
+      },
+      {
+        "value": "Blocks.CALCITE"
+      },
+      {
+        "value": "Blocks.SMOOTH_BASALT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MooHat"
+    },
+    "name": "moo_hat_crafting",
+    "namespace": "mod"
+  }
+}

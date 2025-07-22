@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "config",
+  "definition": {
+    "file": "mcrshorts-common",
+    "configType": 0,
+    "config": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"config_start\" deletable=\"false\" x=\"149\" y=\"29\"><next><block type=\"config_category\"><field name=\"name\">Gameplay</field><statement name=\"write\"><block type=\"config_variable\"><field name=\"name\">crafting_xp_enabled</field><field name=\"comment\">Whether to enable XP gain when crafting items</field><value name=\"value\"><block type=\"config_logic_variable\"><field name=\"name\">Enable Crafting XP</field><field name=\"value\">true</field></block></value><next><block type=\"config_variable\"><field name=\"name\">crafting_xp_amount</field><field name=\"comment\">Amount of experience awarded per crafting action</field><value name=\"value\"><block type=\"config_number_variable\"><field name=\"name\">Crafting XP Amount</field><field name=\"value\">20</field></block></value><next><block type=\"config_variable\"><field name=\"name\">crafting_xp_cooldown</field><field name=\"comment\">Cooldown time (in ticks) before XP can be awarded again</field><value name=\"value\"><block type=\"config_number_variable\"><field name=\"name\">Crafting XP Cooldown</field><field name=\"value\">200</field></block></value></block></next></block></next></block></statement></block></next></block></xml>",
+    "defining": true
+  }
+}

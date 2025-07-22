@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "def"
+  ],
+  "key": {
+    "a": "minecraft:raw_gold_block",
+    "b": "minecraft:gold_block",
+    "c": "minecraft:enchanted_golden_apple",
+    "d": "minecraft:gold_ore",
+    "e": "minecraft:deepslate_gold_ore",
+    "f": "minecraft:nether_gold_ore"
+  },
+  "result": {
+    "id": "mcrshorts:golderbread_man",
+    "count": 1
+  }
+}

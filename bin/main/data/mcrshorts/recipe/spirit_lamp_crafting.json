@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:lapis_lazuli",
+    "b": "minecraft:soul_torch"
+  },
+  "result": {
+    "id": "mcrshorts:spirit_lamp",
+    "count": 1
+  }
+}

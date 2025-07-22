@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "minecraft:sugar_cane",
+    "b": "minecraft:sweet_berries",
+    "c": "mcrshorts:empty_lunchbox",
+    "d": "minecraft:wheat",
+    "e": "minecraft:baked_potato"
+  },
+  "result": {
+    "id": "mcrshorts:lunchbox",
+    "count": 1
+  }
+}

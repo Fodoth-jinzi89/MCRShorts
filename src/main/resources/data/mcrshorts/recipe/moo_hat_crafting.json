@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": "minecraft:milk_bucket",
+    "b": "minecraft:gold_block",
+    "c": "minecraft:leather_helmet",
+    "d": "minecraft:smooth_basalt",
+    "e": "minecraft:calcite"
+  },
+  "result": {
+    "id": "mcrshorts:moo_hat",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "mcrshorts:golderbread_man"
+  },
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:max_health",
+            "id": "mcrshorts:max_health",
+            "amount": 10,
+            "operation": "add_multiplied_base",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    },
+    "count": 1
+  }
+}

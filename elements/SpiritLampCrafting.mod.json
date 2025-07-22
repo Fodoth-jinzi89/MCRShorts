@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.SOUL_TORCH"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#4"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpiritLamp"
+    },
+    "name": "spirit_lamp_crafting",
+    "namespace": "mod"
+  }
+}

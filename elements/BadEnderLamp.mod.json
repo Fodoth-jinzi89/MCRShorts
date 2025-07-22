@@ -1,0 +1,68 @@
+{
+  "_fv": 79,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ender_lamp",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Bad Ender Lamp",
+    "rarity": "COMMON",
+    "creativeTabs": [],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [],
+      "name": "EnderLampTeShuXinXi"
+    },
+    "glowCondition": {
+      "fixedValue": false,
+      "name": "GlowingTorchWuPinShiFouYouFaGuangXiaoGuo"
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "GlowingTorchYouJiKongQiShiShiTiDeWeiZhi"
+    },
+    "onItemInInventoryTick": {
+      "name": "BadEnderLampWuPinZaiWuPinLanShiMeiKeFaSheng"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
+  }
+}

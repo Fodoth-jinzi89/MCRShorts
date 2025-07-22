@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:raw_gold_block",
+    "b": "minecraft:gold_block",
+    "c": "minecraft:golden_sword",
+    "d": "mcrshorts:golderbread_man"
+  },
+  "result": {
+    "id": "mcrshorts:excalibur",
+    "count": 1
+  }
+}

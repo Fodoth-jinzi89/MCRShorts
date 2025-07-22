@@ -1,0 +1,62 @@
+{
+  "_fv": 79,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "moo_hat",
+    "customModelName": "Normal",
+    "name": "Moo Hat",
+    "rarity": "RARE",
+    "slotType": "HEAD",
+    "baubleModel": "Modelmoo_hat",
+    "baubleModelTexture": "moo_hat.png",
+    "creativeTab": {
+      "value": "CUSTOM:MCRShorts"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": false,
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "curioTick": {
+      "name": "MooHatShiPinZhuangBeiShiMeiKeZhiXing"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": true,
+    "animation": "none",
+    "bindToModel": true,
+    "modelPart": "head",
+    "offsetX": 0.0,
+    "offsetY": -24.0,
+    "offsetZ": 0.0
+  }
+}

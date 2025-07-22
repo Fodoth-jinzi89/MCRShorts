@@ -1,0 +1,12 @@
+repositories {
+maven {
+  url = "https://maven.theillusivec4.top/"
+  }
+}
+
+dependencies {
+  runtimeOnly "top.theillusivec4.curios:curios-neoforge:10.0.0+1.21.4"
+  compileOnly "top.theillusivec4.curios:curios-neoforge:10.0.0+1.21.4:api"
+}
+
+

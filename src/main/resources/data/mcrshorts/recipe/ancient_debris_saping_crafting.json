@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:netherite_scrap",
+    "b": "#minecraft:saplings"
+  },
+  "result": {
+    "id": "mcrshorts:ancient_debris_sapling",
+    "count": 1
+  }
+}

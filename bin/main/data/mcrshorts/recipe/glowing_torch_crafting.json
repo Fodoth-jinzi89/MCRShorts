@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "b  "
+  ],
+  "key": {
+    "a": "mcrshorts:glowing_torch",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mcrshorts:glowing_torch",
+    "count": 1
+  }
+}

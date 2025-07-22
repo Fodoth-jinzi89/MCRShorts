@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": "CUSTOM:SpiritLamp"
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnderLamp"
+    },
+    "name": "ender_lamp_crafting",
+    "namespace": "mod"
+  }
+}

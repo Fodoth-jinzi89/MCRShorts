@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "mcrshorts:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "minecraft:damage",
+              "normalize": true
+            },
+            "value": 0.25
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcrshorts:item/lunchbox_0"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "minecraft:damage",
+              "normalize": true
+            },
+            "value": 0.5
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcrshorts:item/lunchbox_1"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "minecraft:damage",
+              "normalize": true
+            },
+            "value": 0.75
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcrshorts:item/lunchbox_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mcrshorts:item/lunchbox"
+    }
+  }
+}

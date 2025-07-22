@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "aba",
+    " ac"
+  ],
+  "key": {
+    "a": "minecraft:feather",
+    "b": "minecraft:yellow_dye",
+    "c": "minecraft:sea_pickle"
+  },
+  "result": {
+    "id": "mcrshorts:lazy_duck",
+    "count": 1
+  }
+}

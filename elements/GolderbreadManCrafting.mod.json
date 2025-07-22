@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.RAW_GOLD_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.GOLD_ORE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GolderbreadMan"
+    },
+    "name": "golderbread_man_crafting",
+    "namespace": "mod"
+  }
+}

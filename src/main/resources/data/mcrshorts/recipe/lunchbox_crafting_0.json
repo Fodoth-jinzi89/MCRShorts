@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": "minecraft:lapis_lazuli",
+    "b": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "mcrshorts:empty_lunchbox",
+    "count": 1
+  }
+}
