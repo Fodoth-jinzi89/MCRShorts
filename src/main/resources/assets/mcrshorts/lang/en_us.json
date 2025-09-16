@@ -28,5 +28,15 @@
   "item.mcrshorts.lunchbox": "Lunchbox",
   "item.mcrshorts.empty_lunchbox": "Empty Lunchbox",
   "info.mcrshorts.super_ingot.0": "Suuuuuuuuper!",
-  "item.mcrshorts.super_ingot": "Super Ingot"
+  "item.mcrshorts.super_ingot": "Super Ingot",
+  "item.mcrshorts.growth_leggings": "Growth Leggings",
+  "enchantment.mcrshorts.time_mending": "Time Mending",
+  "item.mcrshorts.demon_horn_necklace": "Demon Horn Necklace",
+  "effect.mcrshorts.last_stand": "Last Stand",
+  "item.mcrshorts.upsite_crossing": "Upsite Crossing",
+  "item.mcrshorts.gold_slab": "Gold Slab",
+  "item.mcrshorts.gold_slab_2": "Gold Slab",
+  "block.mcrshorts.gold_slab_2": "Gold Slab",
+  "item.mcrshorts.gilding_chamber": "Gilding Chamber",
+  "gui.mcrshorts.gilding_chamber.title": "Gilding Chamber"
 }

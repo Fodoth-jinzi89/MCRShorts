@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.mcrshorts.time_mending"
+  },
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

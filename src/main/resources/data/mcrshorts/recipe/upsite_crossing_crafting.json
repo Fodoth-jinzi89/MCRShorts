@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "mcrshorts:ancient_debris_leaves",
+    "c": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "mcrshorts:upsite_crossing",
+    "count": 1
+  }
+}

@@ -21,8 +21,11 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.mcrshorts.network.McrshortsModVariables;
 import net.mcreator.mcrshorts.init.McrshortsModTabs;
 import net.mcreator.mcrshorts.init.McrshortsModSounds;
+import net.mcreator.mcrshorts.init.McrshortsModMobEffects;
+import net.mcreator.mcrshorts.init.McrshortsModMenus;
 import net.mcreator.mcrshorts.init.McrshortsModItems;
 import net.mcreator.mcrshorts.init.McrshortsModBlocks;
+import net.mcreator.mcrshorts.init.McrshortsModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -43,11 +46,14 @@ public class McrshortsMod {
 		modEventBus.addListener(this::registerNetworking);
 		McrshortsModSounds.REGISTRY.register(modEventBus);
 		McrshortsModBlocks.REGISTRY.register(modEventBus);
-
+		McrshortsModBlockEntities.REGISTRY.register(modEventBus);
 		McrshortsModItems.REGISTRY.register(modEventBus);
 
 		McrshortsModTabs.REGISTRY.register(modEventBus);
 		McrshortsModVariables.ATTACHMENT_TYPES.register(modEventBus);
+
+		McrshortsModMobEffects.REGISTRY.register(modEventBus);
+		McrshortsModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

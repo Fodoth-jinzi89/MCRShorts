@@ -1023,6 +1023,728 @@
           "src/main/java/net/mcreator/mcrshorts/configuration/McrshortsConfigConfiguration.java"
         ]
       }
+    },
+    {
+      "name": "Growth",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcrshorts/items/growth_chestplate.json",
+          "src/main/java/net/mcreator/mcrshorts/item/GrowthItem.java",
+          "src/main/resources/assets/mcrshorts/models/item/growth_leggings.json",
+          "src/main/resources/assets/mcrshorts/equipment/growth.json",
+          "src/main/resources/assets/mcrshorts/items/growth_boots.json",
+          "src/main/resources/assets/mcrshorts/items/growth_helmet.json",
+          "src/main/resources/assets/mcrshorts/items/growth_leggings.json"
+        ]
+      },
+      "path": "~/14. Growth Leggings"
+    },
+    {
+      "name": "TimeMending",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_mending",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcrshorts/enchantment/time_mending.json"
+        ]
+      },
+      "path": "~/14. Growth Leggings"
+    },
+    {
+      "name": "GrowthLeggingsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "growth_leggings_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcrshorts/recipe/growth_leggings_crafting.json"
+        ]
+      },
+      "path": "~/14. Growth Leggings"
+    },
+    {
+      "name": "TimeMendingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "time_mending_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/TimeMendingTickProcedure.java"
+        ]
+      },
+      "path": "~/14. Growth Leggings"
+    },
+    {
+      "name": "TimeMendingTick1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "time_mending_tick_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/TimeMendingTick1Procedure.java"
+        ]
+      },
+      "path": "~/14. Growth Leggings"
+    },
+    {
+      "name": "DemonHornNecklace",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "demon_horn_necklace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/item/DemonHornNecklaceItem.java",
+          "src/main/resources/assets/mcrshorts/items/demon_horn_necklace.json",
+          "src/main/resources/assets/mcrshorts/models/item/demon_horn_necklace.json"
+        ]
+      },
+      "path": "~/15. Demon Necklace"
+    },
+    {
+      "name": "DemonHornNecklaceCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_horn_necklace_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcrshorts/recipe/demon_horn_necklace_crafting.json"
+        ]
+      },
+      "path": "~/15. Demon Necklace"
+    },
+    {
+      "name": "LastStand",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "last_stand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/potion/LastStandMobEffect.java"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "UpsiteCrossing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upsite_crossing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcrshorts/models/item/upsite_crossing.json",
+          "src/main/resources/assets/mcrshorts/items/upsite_crossing.json",
+          "src/main/java/net/mcreator/mcrshorts/item/UpsiteCrossingItem.java"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "UpsiteCrossingPreventDeathProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upsite_crossing_prevent_death_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/UpsiteCrossingPreventDeathProcedureProcedure.java"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "UpsiteCrossingItemComsumeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upsite_crossing_item_comsume_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/UpsiteCrossingItemComsumeProcedureProcedure.java"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "UpsiteCrossingPreventDeathProcedure1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upsite_crossing_prevent_death_procedure_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/UpsiteCrossingPreventDeathProcedure1Procedure.java"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "UpsiteCrossingCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upsite_crossing_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcrshorts/recipe/upsite_crossing_crafting.json"
+        ]
+      },
+      "path": "~/16. Upsite Crossing"
+    },
+    {
+      "name": "GoldSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gold_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcrshorts/blockstates/gold_slab.json",
+          "src/main/java/net/mcreator/mcrshorts/block/entity/GoldSlabBlockEntity.java",
+          "src/main/resources/data/mcrshorts/loot_table/blocks/gold_slab.json",
+          "src/main/resources/assets/mcrshorts/models/item/gold_slab.json",
+          "src/main/resources/assets/mcrshorts/models/block/gold_slab.json",
+          "src/main/resources/assets/mcrshorts/items/gold_slab.json",
+          "src/main/java/net/mcreator/mcrshorts/block/GoldSlabBlock.java",
+          "src/main/java/net/mcreator/mcrshorts/client/renderer/block/GoldSlabRenderer.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabShuBiaoYouJianDanJiFangKuaiShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_shu_biao_you_jian_dan_ji_fang_kuai_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GoldSlabShuBiaoYouJianDanJiFangKuaiShiProcedure.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabHuiFangTiaoJian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_hui_fang_tiao_jian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GoldSlabHuiFangTiaoJianProcedure.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlab2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/client/renderer/block/GoldSlab2Renderer.java",
+          "src/main/resources/data/mcrshorts/loot_table/blocks/gold_slab_2.json",
+          "src/main/java/net/mcreator/mcrshorts/block/GoldSlab2Block.java",
+          "src/main/java/net/mcreator/mcrshorts/block/entity/GoldSlab2BlockEntity.java",
+          "src/main/resources/assets/mcrshorts/models/block/gold_slab_2.json",
+          "src/main/resources/assets/mcrshorts/blockstates/gold_slab_2.json"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabZaiYouXiKeGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_zai_you_xi_ke_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GoldSlabZaiYouXiKeGengXinShiProcedure.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabZaiYouXiKeGengXinShi2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_zai_you_xi_ke_geng_xin_shi_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GoldSlabZaiYouXiKeGengXinShi2Procedure.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabShuBiaoYouJianDanJiFangKuaiShi2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_shu_biao_you_jian_dan_ji_fang_kuai_shi_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GoldSlabShuBiaoYouJianDanJiFangKuaiShi2Procedure.java"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GoldSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcrshorts/recipe/gold_slab_crafting.json"
+        ]
+      },
+      "path": "~/17. Gold Slab"
+    },
+    {
+      "name": "GildingChamber",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gilding_chamber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/block/GildingChamberBlock.java",
+          "src/main/resources/assets/mcrshorts/models/block/gilding_chamber.json",
+          "src/main/java/net/mcreator/mcrshorts/block/entity/GildingChamberBlockEntity.java",
+          "src/main/resources/assets/mcrshorts/blockstates/gilding_chamber.json",
+          "src/main/resources/assets/mcrshorts/models/item/gilding_chamber.json",
+          "src/main/resources/data/mcrshorts/loot_table/blocks/gilding_chamber.json",
+          "src/main/resources/assets/mcrshorts/items/gilding_chamber.json"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcrshorts/models/block/gilding_chamber_states_blockstate_0.json"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberWuPinLanCaoWeiZiDongQuChuTiaoJian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_wu_pin_lan_cao_wei_zi_dong_qu_chu_tiao_jian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberWuPinLanCaoWeiZiDongQuChuTiaoJianProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberWuPinLanCaoWeiZiDongFangZhiTiaoJian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_wu_pin_lan_cao_wei_zi_dong_fang_zhi_tiao_jian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberWuPinLanCaoWeiZiDongFangZhiTiaoJianProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberScreenTitle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_screen_title",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberScreenTitleProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberScreen",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gilding_chamber_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/client/gui/GildingChamberScreenScreen.java",
+          "src/main/java/net/mcreator/mcrshorts/world/inventory/GildingChamberScreenMenu.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberZaiYouXiKeGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_zai_you_xi_ke_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberZaiYouXiKeGengXinShiProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberRecipeCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_recipe_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberRecipeCheckProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberScreenArrow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_screen_arrow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberScreenArrowProcedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberRecipeCheck1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_recipe_check_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/procedures/GildingChamberRecipeCheck1Procedure.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
+    },
+    {
+      "name": "GildingChamberScreen1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilding_chamber_screen_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcrshorts/world/inventory/GildingChamberScreen1Menu.java",
+          "src/main/java/net/mcreator/mcrshorts/client/gui/GildingChamberScreen1Screen.java"
+        ]
+      },
+      "path": "~/18. Gilding Chamber"
     }
   ],
   "variable_elements": [
@@ -1040,6 +1762,18 @@
     },
     {
       "name": "CraftingXPTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "TimeMendingTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "UpsideCrossingTimer",
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
@@ -1062,14 +1796,12 @@
       "~CUSTOM:EnderLamp"
     ],
     "BIOMES:minecraft:is_overworld": [],
-    "ITEMS:mod:test": [
-      "Blocks.POLISHED_GRANITE_STAIRS"
-    ],
     "BLOCKS:minecraft:leaves": [],
     "BLOCKS:minecraft:logs": [
       "Blocks.ANCIENT_DEBRIS"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:TimeMending",
       "~CUSTOM:LifeErosion",
       "~CUSTOM:RangeAttack"
     ],
@@ -1081,7 +1813,31 @@
       "~CUSTOM:RangeAttack"
     ],
     "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:TimeMending",
       "~CUSTOM:LifeErosion"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Growth.legs"
+    ],
+    "ITEMS:mcrshorts:growth_repair_items": [
+      "~Blocks.LIME_GLAZED_TERRACOTTA"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GildingChamber"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:GildingChamber"
+    ],
+    "ITEMS:mcrshorts:gilding_input_1": [
+      "Items.APPLE",
+      "Items.CARROT",
+      "Items.NETHERITE_SCRAP",
+      "Items.MELON"
+    ],
+    "ITEMS:mcrshorts:gilding_input_2": [
+      "Items.GOLD_NUGGET",
+      "Items.GOLD_INGOT",
+      "Blocks.GOLD_BLOCK"
     ]
   },
   "tab_element_order": {},
@@ -1116,7 +1872,17 @@
       "item.mcrshorts.lunchbox": "Lunchbox",
       "item.mcrshorts.empty_lunchbox": "Empty Lunchbox",
       "info.mcrshorts.super_ingot.0": "Suuuuuuuuper!",
-      "item.mcrshorts.super_ingot": "Super Ingot"
+      "item.mcrshorts.super_ingot": "Super Ingot",
+      "item.mcrshorts.growth_leggings": "Growth Leggings",
+      "enchantment.mcrshorts.time_mending": "Time Mending",
+      "item.mcrshorts.demon_horn_necklace": "Demon Horn Necklace",
+      "effect.mcrshorts.last_stand": "Last Stand",
+      "item.mcrshorts.upsite_crossing": "Upsite Crossing",
+      "item.mcrshorts.gold_slab": "Gold Slab",
+      "item.mcrshorts.gold_slab_2": "Gold Slab",
+      "block.mcrshorts.gold_slab_2": "Gold Slab",
+      "item.mcrshorts.gilding_chamber": "Gilding Chamber",
+      "gui.mcrshorts.gilding_chamber.title": "Gilding Chamber"
     },
     "zh_cn": {
       "item.mcrshorts.ancient_debris_sapling": "远古残骸树苗",
@@ -1148,7 +1914,17 @@
       "item.mcrshorts.lunchbox": "午餐盒",
       "item.mcrshorts.empty_lunchbox": "空午餐盒",
       "info.mcrshorts.super_ingot.0": "超级稀有，无比坚硬，天下无敌",
-      "item.mcrshorts.super_ingot": "超级锭"
+      "item.mcrshorts.super_ingot": "超级锭",
+      "item.mcrshorts.growth_leggings": "生长护腿",
+      "enchantment.mcrshorts.time_mending": "时光修补",
+      "item.mcrshorts.demon_horn_necklace": "恶魔角项链",
+      "effect.mcrshorts.last_stand": "背水一战",
+      "item.mcrshorts.upsite_crossing": "倒悬十字",
+      "item.mcrshorts.gold_slab": "金竖台阶",
+      "item.mcrshorts.gold_slab_2": "金竖台阶",
+      "block.mcrshorts.gold_slab_2": "金竖台阶",
+      "item.mcrshorts.gilding_chamber": "镀金室",
+      "gui.mcrshorts.gilding_chamber.title": "镀金室"
     }
   },
   "metadata": {
@@ -1165,11 +1941,17 @@
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModCuriosProperties.java",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModCuriosSlots.java",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModLayerDefinitions.java",
+      "src/main/resources/data/curios/tags/item/necklace.json",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModCuriosRenderers.java",
       "src/main/resources/data/curios/tags/item/head.json",
+      "src/main/java/net/mcreator/mcrshorts/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/mcrshorts/init/McrshortsModMenus.java",
+      "src/main/java/net/mcreator/mcrshorts/init/McrshortsModScreens.java",
       "src/main/java/net/mcreator/mcrshorts/client/renderer/item/LegacyOverrideSelectItemModel.java",
+      "src/main/java/net/mcreator/mcrshorts/init/McrshortsModMobEffects.java",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModConfigs.java",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModBlocks.java",
+      "src/main/java/net/mcreator/mcrshorts/init/McrshortsModBlockEntities.java",
       "src/main/java/net/mcreator/mcrshorts/init/McrshortsModItems.java"
     ]
   },
@@ -1226,6 +2008,26 @@
       },
       {
         "name": "13. Crafting XP",
+        "children": []
+      },
+      {
+        "name": "14. Growth Leggings",
+        "children": []
+      },
+      {
+        "name": "15. Demon Necklace",
+        "children": []
+      },
+      {
+        "name": "16. Upsite Crossing",
+        "children": []
+      },
+      {
+        "name": "17. Gold Slab",
+        "children": []
+      },
+      {
+        "name": "18. Gilding Chamber",
         "children": []
       }
     ]

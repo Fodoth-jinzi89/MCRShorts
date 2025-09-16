@@ -1,0 +1,9 @@
+{
+  "parent": "mcrshorts:custom/gold_slab1_item",
+  "textures": {
+    "all": "mcrshorts:block/gold_slab_item",
+    "particle": "mcrshorts:block/gold_slab_item",
+    "1": "mcrshorts:block/gold_slab_item"
+  },
+  "render_type": "solid"
+}

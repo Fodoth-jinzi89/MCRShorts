@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mcrshorts:block/gold_slab",
+    "particle": "mcrshorts:block/gold_slab"
+  },
+  "render_type": "solid"
+}

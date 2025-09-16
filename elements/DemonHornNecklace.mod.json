@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "demon_horn_necklace",
+    "customModelName": "Normal",
+    "name": "Demon Horn Necklace",
+    "rarity": "RARE",
+    "slotType": "NECKLACE",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:MCRShorts"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": false,
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none",
+    "bindToModel": false,
+    "modelPart": "head",
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "offsetZ": 0.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "blockstates",
+  "definition": {
+    "block": "GildingChamber",
+    "blockstateList": [
+      {
+        "texture": "gilding_chamber_side",
+        "textureTop": "gilding_chamber_side",
+        "textureLeft": "gilding_chamber_side",
+        "textureFront": "gilding_chamber_face_working",
+        "textureRight": "gilding_chamber_side",
+        "textureBack": "gilding_chamber_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

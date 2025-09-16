@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:lime_glazed_terracotta",
+    "b": "minecraft:golden_leggings"
+  },
+  "result": {
+    "id": "mcrshorts:growth_leggings",
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "mcrshorts:time_mending": 1
+        }
+      }
+    },
+    "count": 1
+  }
+}

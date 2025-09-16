@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "c b",
+    "dca"
+  ],
+  "key": {
+    "a": "minecraft:blaze_powder",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:ancient_debris",
+    "d": "minecraft:goat_horn"
+  },
+  "result": {
+    "id": "mcrshorts:demon_horn_necklace",
+    "count": 1
+  }
+}

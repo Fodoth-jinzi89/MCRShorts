@@ -1,0 +1,21 @@
+{
+  "type": "mcrshorts:gilding_chamber",
+  "ingredients": [
+    {
+      "item": "minecraft:apple",
+      "count": 1
+    },
+    {
+      "gild": "minecraft:gold_ingot",
+      "count": 4
+    }
+    
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_apple",
+      "count": 1
+    }
+  ],
+  "ticks": 200
+}

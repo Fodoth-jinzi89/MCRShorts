@@ -28,5 +28,10 @@ public class McrshortsModTabs {
 				tabData.accept(McrshortsModItems.EXCALIBUR.get());
 				tabData.accept(McrshortsModItems.LUNCHBOX.get());
 				tabData.accept(McrshortsModItems.EMPTY_LUNCHBOX.get());
+				tabData.accept(McrshortsModItems.GROWTH_LEGGINGS.get());
+				tabData.accept(McrshortsModItems.DEMON_HORN_NECKLACE.get());
+				tabData.accept(McrshortsModItems.UPSITE_CROSSING.get());
+				tabData.accept(McrshortsModBlocks.GOLD_SLAB.get().asItem());
+				tabData.accept(McrshortsModBlocks.GILDING_CHAMBER.get().asItem());
 			}).build());
 }

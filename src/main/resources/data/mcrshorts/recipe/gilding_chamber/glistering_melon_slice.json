@@ -1,0 +1,21 @@
+{
+  "type": "mcrshorts:gilding_chamber",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice",
+      "count": 1
+    },
+    {
+      "gild": "minecraft:gold_nugget",
+      "count": 4
+    }
+    
+  ],
+  "results": [
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "count": 1
+    }
+  ],
+  "ticks": 20
+}

@@ -28,5 +28,15 @@
   "item.mcrshorts.lunchbox": "午餐盒",
   "item.mcrshorts.empty_lunchbox": "空午餐盒",
   "info.mcrshorts.super_ingot.0": "超级稀有，无比坚硬，天下无敌",
-  "item.mcrshorts.super_ingot": "超级锭"
+  "item.mcrshorts.super_ingot": "超级锭",
+  "item.mcrshorts.growth_leggings": "生长护腿",
+  "enchantment.mcrshorts.time_mending": "时光修补",
+  "item.mcrshorts.demon_horn_necklace": "恶魔角项链",
+  "effect.mcrshorts.last_stand": "背水一战",
+  "item.mcrshorts.upsite_crossing": "倒悬十字",
+  "item.mcrshorts.gold_slab": "金竖台阶",
+  "item.mcrshorts.gold_slab_2": "金竖台阶",
+  "block.mcrshorts.gold_slab_2": "金竖台阶",
+  "item.mcrshorts.gilding_chamber": "镀金室",
+  "gui.mcrshorts.gilding_chamber.title": "镀金室"
 }

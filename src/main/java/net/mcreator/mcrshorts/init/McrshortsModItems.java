@@ -17,16 +17,19 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.mcrshorts.item.UpsiteCrossingItem;
 import net.mcreator.mcrshorts.item.SuperIngotItem;
 import net.mcreator.mcrshorts.item.SpiritLampItem;
 import net.mcreator.mcrshorts.item.MooHatItem;
 import net.mcreator.mcrshorts.item.LunchboxItem;
 import net.mcreator.mcrshorts.item.LazyDuckItem;
+import net.mcreator.mcrshorts.item.GrowthItem;
 import net.mcreator.mcrshorts.item.GolderbreadManItem;
 import net.mcreator.mcrshorts.item.GlowingTorchItem;
 import net.mcreator.mcrshorts.item.ExcaliburItem;
 import net.mcreator.mcrshorts.item.EnderLampItem;
 import net.mcreator.mcrshorts.item.EmptyLunchboxItem;
+import net.mcreator.mcrshorts.item.DemonHornNecklaceItem;
 import net.mcreator.mcrshorts.item.BadEnderLampItem;
 import net.mcreator.mcrshorts.McrshortsMod;
 
@@ -47,6 +50,11 @@ public class McrshortsModItems {
 	public static final DeferredItem<Item> LUNCHBOX = register("lunchbox", LunchboxItem::new);
 	public static final DeferredItem<Item> EMPTY_LUNCHBOX = register("empty_lunchbox", EmptyLunchboxItem::new);
 	public static final DeferredItem<Item> SUPER_INGOT = register("super_ingot", SuperIngotItem::new);
+	public static final DeferredItem<Item> GROWTH_LEGGINGS = register("growth_leggings", GrowthItem.Leggings::new);
+	public static final DeferredItem<Item> DEMON_HORN_NECKLACE = register("demon_horn_necklace", DemonHornNecklaceItem::new);
+	public static final DeferredItem<Item> UPSITE_CROSSING = register("upsite_crossing", UpsiteCrossingItem::new);
+	public static final DeferredItem<Item> GOLD_SLAB = block(McrshortsModBlocks.GOLD_SLAB);
+	public static final DeferredItem<Item> GILDING_CHAMBER = block(McrshortsModBlocks.GILDING_CHAMBER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcrshorts:block/gilding_chamber_side",
+    "up": "mcrshorts:block/gilding_chamber_side",
+    "north": "mcrshorts:block/gilding_chamber_face_working",
+    "east": "mcrshorts:block/gilding_chamber_side",
+    "south": "mcrshorts:block/gilding_chamber_side",
+    "west": "mcrshorts:block/gilding_chamber_side",
+    "particle": "mcrshorts:block/gilding_chamber_side"
+  },
+  "render_type": "solid"
+}

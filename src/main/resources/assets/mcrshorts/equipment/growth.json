@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mcrshorts:growth"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mcrshorts:growth"
+      }
+    ]
+  }
+}

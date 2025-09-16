@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mcrshorts:block/gold_slab"
+    },
+    "facing=east": {
+      "model": "mcrshorts:block/gold_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcrshorts:block/gold_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcrshorts:block/gold_slab",
+      "y": 270
+    }
+  }
+}

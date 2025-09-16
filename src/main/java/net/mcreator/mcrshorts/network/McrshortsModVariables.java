@@ -64,6 +64,8 @@ public class McrshortsModVariables {
 				clone.GlowingTorchTimer = original.GlowingTorchTimer;
 				clone.EnderLampTimer = original.EnderLampTimer;
 				clone.CraftingXPTimer = original.CraftingXPTimer;
+				clone.TimeMendingTimer = original.TimeMendingTimer;
+				clone.UpsideCrossingTimer = original.UpsideCrossingTimer;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -73,6 +75,8 @@ public class McrshortsModVariables {
 		public double GlowingTorchTimer = 20.0;
 		public double EnderLampTimer = 20.0;
 		public double CraftingXPTimer = 0.0;
+		public double TimeMendingTimer = 0.0;
+		public double UpsideCrossingTimer = 0.0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -80,6 +84,8 @@ public class McrshortsModVariables {
 			nbt.putDouble("GlowingTorchTimer", GlowingTorchTimer);
 			nbt.putDouble("EnderLampTimer", EnderLampTimer);
 			nbt.putDouble("CraftingXPTimer", CraftingXPTimer);
+			nbt.putDouble("TimeMendingTimer", TimeMendingTimer);
+			nbt.putDouble("UpsideCrossingTimer", UpsideCrossingTimer);
 			return nbt;
 		}
 
@@ -88,6 +94,8 @@ public class McrshortsModVariables {
 			GlowingTorchTimer = nbt.getDouble("GlowingTorchTimer");
 			EnderLampTimer = nbt.getDouble("EnderLampTimer");
 			CraftingXPTimer = nbt.getDouble("CraftingXPTimer");
+			TimeMendingTimer = nbt.getDouble("TimeMendingTimer");
+			UpsideCrossingTimer = nbt.getDouble("UpsideCrossingTimer");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

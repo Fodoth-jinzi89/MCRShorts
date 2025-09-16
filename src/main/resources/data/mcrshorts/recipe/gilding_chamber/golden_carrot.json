@@ -1,0 +1,21 @@
+{
+  "type": "mcrshorts:gilding_chamber",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "gild": "minecraft:gold_nugget",
+      "count": 4
+    }
+    
+  ],
+  "results": [
+    {
+      "id": "minecraft:golden_carrot",
+      "count": 1
+    }
+  ],
+  "ticks": 20
+}
