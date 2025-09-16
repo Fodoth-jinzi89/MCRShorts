@@ -1,7 +1,0 @@
-[Gameplay]
-	#Whether to enable XP gain when crafting items
-	"Enable Crafting XP" = true
-	#Amount of experience awarded per crafting action
-	"Crafting XP Amount" = 20.0
-	#Cooldown time (in ticks) before XP can be awarded again
-	"Crafting XP Cooldown" = 200.0
