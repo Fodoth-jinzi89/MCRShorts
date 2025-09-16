@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "mcrshorts:block/ancient_debris_sapling",
-    "particle": "mcrshorts:block/ancient_debris_sapling"
-  },
-  "render_type": "cutout_mipped"
-}

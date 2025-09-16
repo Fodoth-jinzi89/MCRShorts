@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mcrshorts:block/ancient_debris_leaves",
-    "particle": "mcrshorts:block/ancient_debris_leaves"
-  }
-}
