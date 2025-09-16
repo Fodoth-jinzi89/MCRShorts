@@ -39,10 +39,10 @@ classes/
 .vscode
 .settings
 *.launch
-.mcreator/workspaceBackups/
-run/
-build/
-.metadata/
-.eclipse/
-.idea/
-.settings/
+.mcreator/workspaceBackups
+run
+build
+.metadata
+.eclipse
+.idea
+.settings
