@@ -4,6 +4,13 @@
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
-    "expandedPaths": []
+    "expandedPaths": [
+      "[, MCRShorts]",
+      "[, MCRShorts, Resources (Gradle)]",
+      "[, MCRShorts, Resources (Gradle), E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data]",
+      "[, MCRShorts, Resources (Gradle), E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts]",
+      "[, MCRShorts, Resources (Gradle), E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts\\recipe]",
+      "[, MCRShorts, Resources (Gradle), E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts\\recipe, E:\\MCreator\\Workspaces\\mcrshorts\\src\\main\\resources\\data\\mcrshorts\\recipe\\gilding_chamber]"
+    ]
   }
 }
